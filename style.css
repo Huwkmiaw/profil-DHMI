@@ -1,0 +1,334 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+ 
+ }
+ 
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Open Sans', sans-serif;
+ 
+ }
+
+ button {
+    background-color: #ffffff; /* Warna latar belakang */
+    color: rgb(0, 0, 0); /* Warna teks */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'comic sans ms'; 
+    font-weight: bold;
+    
+}
+
+/* Tambahkan efek hover */
+button:hover {
+    text-decoration: underline;
+}
+
+ 
+ .wrapper{
+     width: 1100px;
+     margin: auto;
+     position: relative;
+ }
+ 
+ .logo a{
+     font-size: 60px;
+     font-weight: 700;
+     float: left;
+     font-family: courier;
+     color: cornflowerblue;
+ }
+ .menu {   
+  float: right;
+ }
+ 
+ nav{
+     width: 100%;
+     margin: auto;
+     display: flex;
+     line-height: 80px;
+     position: sticky;
+     position: -webkit-sticky;
+     top:0;
+     background: #FFFFFF;
+     z-index: 1;
+     border-bottom: 1px solid 
+     ;
+ 
+ }
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+ 
+ nav ul li {
+     float: left;
+ }
+ nav ul li a {
+     color:black;
+     font-weight: bold;
+     text-align: center;
+     padding: 0px 16px 0px 16px;
+     text-decoration: none;
+     
+ }
+ nav ul li a:hover{
+     text-decoration: underline;
+ 
+ }
+ 
+ section{
+     margin: auto;
+     display: flex;
+     margin-bottom: 50px;
+     float: right;
+ }
+ 
+ 
+ .kolom {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     
+ }
+ 
+ .kolom .des{
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'comic sans ms';
+     color: cornflowerblue;
+ }
+ 
+ h2{
+     font-family: 'comic sans ms';
+     font-weight: 800;
+     font-size: 45px;
+     margin-bottom: 20px;
+     color: cornflowerblue;
+     width: 100%;
+     line-height: 50px;
+ }
+ 
+ .gambar {
+     float: left; /* Menempatkan gambar di sebelah kiri */
+     margin-right: 20px; /* Memberikan jarak antara gambar dan teks */
+     margin-top: 10px;
+     font-size: 10px;
+     
+ }
+ a.tmbl-join {
+     background: rgb(38, 107, 235);
+     border-radius: 20px;
+     margin-top: 20px;
+     padding: 15px 20px 15px 20px;
+     color: #fff;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ a.tmbl-join:hover{
+     background: crimson;
+     text-decoration: none;
+ }
+ 
+ a.tbl-pink{
+     background: crimson;
+     border-radius: 20px;
+     margin-top: 20px;
+     padding: 15px 20px 15px 20px;
+     color: #fff;
+     cursor: pointer;
+     font-weight: bold;
+ 
+ }
+ 
+ 
+ p {
+ 
+     margin: 10px 0px 10px 0px;
+     padding: 10px 0px 10px 0px;
+ }
+ 
+ 
+ .gmbr {
+     float: right; /* Menempatkan gambar di sebelah kiri */
+     margin-left: 100px; /* Memberikan jarak antara gambar dan teks */
+     margin-top: 10px;
+     flex: 0 0 auto;
+     width: 50%; 
+     overflow-y: hidden;
+     overflow-x: hidden;/* Adjust as needed */
+    
+    
+       
+ }
+ 
+ .pou {
+     text-align: center;
+     width: 100%;
+ }
+ 
+ .tutor-list {
+     width: 100%;
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     overflow-y: hidden;
+     overflow-x: hidden; /* Untuk menyusun elemen di tengah secara horizontal */
+ }
+ 
+ .kartu-tutor {
+     width: 20%;
+     margin: 10px; /* Menambahkan margin agar ada jarak antara elemen */
+     box-sizing: border-box;
+     overflow-y: hidden;
+     overflow-x: hidden; /* Untuk menyertakan padding dan border dalam lebar total elemen */
+ }
+ 
+ .kartu-tutor img {
+     width: 80%;
+     border-radius: 50%;
+     overflow-y: hidden;
+     overflow-x: hidden;
+ }
+ 
+ .kartu-tutor p {
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     font-weight: 800;
+     font-size: 20px;
+     text-align: center;
+     color: #364f6b;
+ }
+ 
+ 
+ 
+ 
+ .footer {
+     width: 100%; 
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+     background: cornflowerblue;
+     overflow-x: hidden;
+     overflow-y: hidden;
+     
+    
+ }
+ 
+ .footer-section{
+     width: 35%;
+     margin: 0 auto;
+     text-align: center;
+    
+ }
+ .kolom2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.kolom2 .des2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: cornflowerblue;
+}
+ 
+ @media screen and (max-width:991.98px){
+     .wrapper{
+         width: 90%;
+     }
+ 
+     .logo a{
+         display: block;
+         width: 100%;
+         text-align: center;
+     }
+     nav .menu {
+         width: 100%;
+         margin: 0;
+     }
+ 
+     nav .menu ul{
+         text-align: center;
+         margin: auto;
+         line-height: 60px;
+     }
+ 
+     nav .menu ul li{
+         display: inline-block;
+         float: none;
+     }
+     section{
+         display: block;
+     }
+     .gambar{
+         display: block;
+         width: 100%;
+         height: auto;
+     }
+ 
+     .kartu-tutor {
+         width: 50px;
+     }
+
+     .gambar{
+        width: 100%;
+        padding: 2vw;
+        
+     }
+     
+     .gambar img {
+        width: 100%; /* Memastikan gambar memenuhi lebar container */
+        height: auto;
+    }
+ 
+     
+         
+ 
+     
+     
+     .kolom2, .gmbr {
+        width: 100%;
+        padding: 2vw; /* Menambahkan padding relatif */
+    }
+
+    .gmbr img {
+        width: 100%; /* Memastikan gambar memenuhi lebar container */
+        height: auto;
+    }
+
+    
+
+
+
+
+     }
+        
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
