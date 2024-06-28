@@ -198,13 +198,13 @@ button:hover {
  
  .kartu-tutor img {
      width: 80%;
-     border-radius: 50%;
+     border-radius: 90%;
      overflow-y: hidden;
      overflow-x: hidden;
  }
  
  .kartu-tutor p {
-     font-family: 'Comic Sans MS', cursive, sans-serif;
+     font-family: 'comic sans ms';
      font-weight: 800;
      font-size: 20px;
      text-align: center;
@@ -279,9 +279,6 @@ button:hover {
          height: auto;
      }
  
-     .kartu-tutor {
-         width: 50px;
-     }
 
      .gambar{
         width: 100%;
@@ -308,6 +305,21 @@ button:hover {
         width: 100%; /* Memastikan gambar memenuhi lebar container */
         height: auto;
     }
+
+    .kartu-tutor img {
+         width: 100%;
+         height: auto;
+
+    }
+
+    .kartu-tutor p {
+        font-size: 10px;
+
+    }
+
+    
+
+
 
     
 
