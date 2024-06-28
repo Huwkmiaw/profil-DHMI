@@ -233,8 +233,8 @@ button:hover {
     
  }
  .kolom2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
@@ -290,12 +290,12 @@ button:hover {
         width: 100%; /* Memastikan gambar memenuhi lebar container */
         height: auto;
     }
+
+   
  
      
          
  
-     
-     
      .kolom2, .gmbr {
         width: 100%;
         padding: 2vw; /* Menambahkan padding relatif */
@@ -317,6 +317,19 @@ button:hover {
 
     }
 
+    .des{
+        margin-right:100px; /* Memberikan jarak antara gambar dan teks */
+        margin-top: 10px;
+        color: cornflowerblue;
+        font-weight: bold;
+        font-family: 'comic sans ms';
+
+    }
+
+   
+   
+    }
+
     
 
 
@@ -325,8 +338,12 @@ button:hover {
 
 
 
+    
 
-     }
+
+
+
+     
         
      
      
