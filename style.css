@@ -55,12 +55,12 @@ button:hover {
  nav{
      width: 100%;
      margin: auto;
-     display: flex;
+     display:flex;
      line-height: 80px;
-     position: sticky;
+     position:sticky;
      position: -webkit-sticky;
      top:0;
-     background: #FFFFFF;
+     background: #ffffff;
      z-index: 1;
      border-bottom: 1px solid 
      ;
@@ -259,21 +259,28 @@ button:hover {
          width: 100%;
          margin: 0;
      }
+     button {
+        font-size: 10px;
+        
+     }
  
      nav .menu ul{
          text-align: center;
          margin: auto;
          line-height: 60px;
+         font-size: 10px;
      }
  
      nav .menu ul li{
-         display: inline-block;
+         display:unset;
          float: none;
+         
+         
      }
      section{
          display: block;
      }
-     .gambar{
+   .gambar{
          display: block;
          width: 100%;
          height: auto;
