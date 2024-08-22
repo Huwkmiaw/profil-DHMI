@@ -9,7 +9,7 @@
      margin: 0px;
      padding: 0px;
      font-family: 'Open Sans', sans-serif;
- 
+
  }
 
  button {
@@ -297,6 +297,10 @@ button:hover {
         width: 100%; /* Memastikan gambar memenuhi lebar container */
         height: auto;
     }
+
+   
+        
+    
 
    
  
